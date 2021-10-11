@@ -3,28 +3,33 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
         <title>Profile</title>
-        <link rel="stylesheet" href="style.css" type="css">
-        <link rel="stylesheet" href="grid-layout.css" type="css">
-        <link rel="stylesheet" href="responsive.css" type="css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="grid-layout.css">
+        <link rel="stylesheet" href="responsive.css">
     </head>
     <body>
         <div class='container'>
             <div class='navbar'>
+                <div class='logo'>
+                    <h1>DA</h1>
+                </div>
                 <ul>
                     <li><a href=".aboutContainer">About me</a></li>
                     <li><a href=".projectContainer">Projects</a></li>
                     <li><a href=".contacts">Contacts</a></li>
                 </ul>
+                <i class="fas fa-bars fa-2x"></i>
             </div>
             <div class='middle'>
                 <div class='welcomeContainer'>
-                    <p>Hello! My name is Daniel An and this is my portfolio page. 
-                        This is where I want to add a cool animation or a game of some sorts
-                        But we'll see if I have to time to get there eventually</p>
+                    <h2>Welcome!</h2>
+                    <p>Hello! My name is Daniel An </br>and this is my portfolio page.</p>
                 </div>
                 <div class='aboutContainer'>
-                    <p>A little about me... Well, first and foremost, I am currently serving as a
+                    <h2>About Me <i class="fas fa-angle-down"></i></h2>
+                    <p class='hidden'>A little about me... Well, first and foremost, I am currently serving as a
                         soldier in the United States Army Reserves. My primary positions have been as 
                         a power generation equipment repairer and squad leader. I also currently hold 
                         a degree in Mechanical Engineering from the University of Washington but I found 
@@ -36,6 +41,7 @@
                     </p>
                 </div>
                 <div class='projectContainer'>
+                    <h2>Projects</h2>
                     <div class='project' id='subway'>
                         <h3><a href='https://git.generalassemb.ly/dma151/subway-challenge'>Subway Challenge</a></h3>
                     </div>
@@ -52,9 +58,9 @@
             </div>
             <div class='contacts'>
                 <ul id='contactList'>
-                    <li id='linkedIn'>LinkedIn</li>
-                    <li id='instagram'>Instagram</li>
-                    <li id='eMail'><a href='mailto:mkandaniel@gmail.com'>E-mail</a></li>
+                    <li id='linkedIn'><a href='https://www.linkedin.com/in/dma151/'><img src='https://www.freeiconspng.com/uploads/linkedin-logo-3.png' width='50px'> LinkedIn</a></li>
+                    <li id='instagram'><a href='https://www.instagram.com/daniel.an.15/'><img src='http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png' width='50px'>Instagram</a></li>
+                    <li id='eMail'><a href='mailto:mkandaniel@gmail.com'><img src='https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png' width='50px'> Email</a></li>
                 </ul>
             </div>
         </div>

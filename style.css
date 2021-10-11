@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+.navbar {
+    font-size: 2em;
+    background-color: rgb(207, 207, 207);
+    padding: 0 40px;
+    width: 100%;
+}
+.welcomeContainer {
+    background-image: url('https://images.unsplash.com/photo-1632808575219-68d77ee2dadf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2232&q=80');
+    background-position-x: -100px;
+    height: 700px;
+    display: inline-block;
+}
+.welcomeContainer p {
+    color: white;
+    font-size: 1.5em;
+    padding-left: 50px;
+
+}
+.welcomeContainer h2 {
+    color: white;
+    font-size: 2em;
+    text-align: left;
+    padding-top: 50px;
+}
+h2 {
+    font-size: 3em;
+    color: white;
+    margin-left: 50px;
+}
+p {
+    font-size: 15px;
+}
+.fas fa-angle-down {
+    color: white;
+}
+.aboutContainer p {
+    color: white;
+    font-size: 15px;
+}
+.project {
+    width: 100%;
+    height: 600px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2.5em;
+    background-color: white;;
+}
+.project h3 {
+    background-color: rgb(63, 63, 63, 0.8);
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.project a {
+    text-decoration: none;
+    color: white;
+}
+.projectContainer h2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: black;
+}
+#subway {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-image: url('https://lh3.googleusercontent.com/WKoci0GFk97Dt3wQcE8hJWE7uBBoooOlQ6quRZvw_b8sAFOiFgInNe3_sCX3Nfx4iplCY_uPCCbWYwXIZP4zLrKxVP9dQkjc4AioqwBlTLGuV7S-WIDlDt75H_Tgq1lFSDoKQD5pprwhpD_Sswj7ExzzITPEKYxhgRTuvneOAgiO1hqXHT_cWhNjgB_Hrv-F1CWwrWFbsK1yhBaGAO_U92TGR6OUz6S9W9u8ZIA_PRv0XrfOsOAbL11DNq-bbPooNvSmjTQNIN3K9C15R0n3hJpUUcLxzSQp7ylKk3sii4XYMZgfwwq4daAWgpGH3c3cU5N8Ntod1fiYxUiB4Na0w19LPES8ERBORfVb_meCi_p1XjSJIfnmRiN_Jfn_dSJ2g00R1Jo188K5-X4H-AJ1fBGQTRWNZa74ykVKIxogdrfcxnbm0WbEou9aNmk3o_L-kNnmQYWjZnAhIQxJDJH6EDgfeESRhNRj7ZJ0av-h96U1PEPZqWbbxiLtJJC-BVraSuwTt1q-_u92xTRE9-7vfpfVaqxnEd4FmVZ54e9qdeObQ6-Fquu2_Qn2NEawq-d3OlZMK_b98e-zL1u5y8cfjD82qtuNGyfDx4JhSuXMoHdz6mEyU1yVgMGfOVWc503acD32XDru9b43PmT-zqkFNidUZ6xc07ge6G3jSoL2rwjgSmdsWnZdbifYRUrBgMDKrIZcEC0OtXTQeZtuPxfU77A=w1718-h535-no?authuser=0');
+    background-size: cover;
+}
+#imager {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    background-image: url('https://lh3.googleusercontent.com/zMZ9ia3FaqCTzzEMKLgAqC4so_KreDxir56RUfegICzMNIb5mGExMmdFwwz6S4aLFM7iuQDvxHiWK1TU_DIjGpW9UoTWsj3jazGSCXwLu0g7_11uykPkYI7Plc0cMaxqXsW5py-oxjH6jWuT6QwyzGk3AvDoOLrltYqFwT4sF6MPBmHQoyU2b44JjqPC58JIcc2clvXsmC6iEWbrt8MRz4zqRWLSx8dQOqOmjWl8P_vfpL32W7p18qI2a54J7SIExOXqSVxF2oePfEGOffCYoiYI1ao2X8aLc-A-Tr8B0_uUYbwDV69YFEq0oVIbOcl-Vm5ojX7z52VBG1_5jg5KS_gxe2FYA23lAOf0Nd-6JERJ4HkIX09eog0J4SmlF0AR6HJWzSu7LV2u4bbreVcegOTDnicuMCmub6-Ro8RKi79LI9J5A5dVd6MW1TbEmF3ddW1UkyTz4JQEMvC2mApHVspKFK4Jx-JbV711gzJDidmlGOuqT2VmWU0NeWO_yxTKh5V0y49zhxy-albigZ-VDddBW6NgT59IfDonRJcGnXb7avK2tt1O1yFF28q-NuvUgj6kUClvR21tmrUSPOGWfaRKO0ROy0K5kFerxTEZ5vVGh6OUefduno97GQXQ-wVqhShU8DuzDEWdyK-KERDkI7FxDx2uKS0mcQ8CKRXOfH6toyImZ6zsaqkzxPPx4ztgIGQLPJM3LOKgzX_F3Dqi9gQ=w1212-h1358-no?authuser=0');
+    background-size: cover;
+}
+#tamagotchi {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-image: url('https://www.bandai.com/wp-content/uploads/tama-on-logo.jpg');
+    background-position-y: -200px;
+}
+#todoList {
+    grid-column: 1/5;
+    grid-row: 5/6;
+    background-image: url('https://lh3.googleusercontent.com/Y0xtafHjQXCrW2CqAnwQzAUiU1D6gfPAEHXmNipQ-vHd_VIsAJiwcTJEEvEmdK13H_ZluqCu3-Db0w-HOxHrNAi-c1i7gVn6e3DfvRex2CYTnzRttSYxUcr1VP4UunvN5257SiRq0mLWr1KebkQjx81sTjCZBV4g32HmKn_FiH-16j5LlQaUga-zX1iTyro9J5FP-ZR9OQo0XmigXFQQr4_ByN0FwwgkGNRpdTt6mTdGr-xFanXW5Sf6-WnG7RUiv-mFziPm0DIUIvG-kvl1LN89l3iauY8UnLF5xeH_BU6CUVoAB9xyR7sXSfslR9WJ66VvoORdtCXeWbMidLr00kATHA95eWunU_mSmPVpIwu9u1P4Xd_sjT11h9y7OZM9DGzaE8wYBwmS0KhTO1rdSw4gM81b1tKucSQw0oAcS0I86tbDVQJP4mc-a59pu8FCDgXoBzIqlK4iFM7MxQ635mJbyUn0Fumg9KEnacVrFChzC8Qg_A8vdFk9a-CRVTmIMJsZH-Pu06jvQtiWeUj4P5U2azItZRJ2wqYrrdD6EKSpChMwy0PPMAzxRZ3POkttPO8vEQwnyGJpFTcwn1RI4xfAujcVz2sVxfeT3cetgBrZEkDjrbBDJtjfPRfeFa0OUnjpzvZ0RzNXnESN8HwBpGht7BPn_BRw-xEr5ibhHKThtx2X79QIyWY7pfw5qH1opNYZW5joBGAiKRyudKGaeaA=w1463-h743-no?authuser=0');
+}
+.contacts {
+    display: flex;
+    align-items: center;
+}
+.contacts ul {
+    display: flex;
+    list-style-type: none;
+}
+.contacts li {
+    padding: 0 25px;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.contacts li a {
+    color: white;
+    text-decoration: none;
+}
+.hidden {
+    display:none;
+}

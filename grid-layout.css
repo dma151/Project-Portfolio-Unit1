@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 1fr;
+}
+
+.navbar {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: none;
+}
+
+.middle {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 2fr auto auto;
+}
+
+.middle .welcomeContainer {
+    grid-row: 1/2;
+}
+.middle .aboutContainer {
+    grid-row: 2/3;
+}
+.middle .projectContainer {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+}
+
+.contacts {
+    grid-row: 3/4;
+}

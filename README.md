@@ -58,7 +58,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Animation Inclusion | H | 2hr | hr |  
 | Creating Classes | H | 1hr|  hr | 
 | CSS styling for page (basic) | H | 1.5hr | hr|
-| Filling in HTML layout | H | .75hr |  hr | 
+| Filling in HTML layout | H | .75hr |  1hr | 
 | Responsive | H | 2hr | hr |
 | Total | H | 8.25hrs| hrs |
 
@@ -71,7 +71,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Total | H | 5hrs| hrs |
 
 ## Additional Libraries
-
+Instagram Logo
+http://www.stickpng.com/img/icons-logos-emojis/tech-companies/instagram-logo
+Linkedin Logo
+https://www.freeiconspng.com/img/2026
+Email Logo
+https://www.freepnglogos.com/images/email-13728.html
+Tamagotchi logo
+https://www.bandai.com/brands/tamagotchi/
 
 ## Code Snippet
 
