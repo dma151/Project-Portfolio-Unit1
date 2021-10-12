@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="grid-layout.css">
         <link rel="stylesheet" href="responsive.css">
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
     </head>
     <body>
         <div class='container'>
@@ -15,12 +19,16 @@
                 <div class='logo'>
                     <h1>DA</h1>
                 </div>
-                <ul>
+                <div class='hamburger'>
+                <i class="fas fa-bars fa-2x">
+                <ul class='hidden'>
                     <li><a href=".aboutContainer">About me</a></li>
                     <li><a href=".projectContainer">Projects</a></li>
                     <li><a href=".contacts">Contacts</a></li>
                 </ul>
-                <i class="fas fa-bars fa-2x"></i>
+                </i>
+                </div>
+                <!-- <i class="fas fa-bars fa-2x"></i> -->
             </div>
             <div class='middle'>
                 <div class='welcomeContainer'>
@@ -43,26 +51,28 @@
                 <div class='projectContainer'>
                     <h2>Projects</h2>
                     <div class='project' id='subway'>
-                        <h3><a href='https://git.generalassemb.ly/dma151/subway-challenge'>Subway Challenge</a></h3>
+                        <h3><a href='https://git.generalassemb.ly/dma151/subway-challenge' target='_blank'>Subway Challenge</a></h3>
                     </div>
                     <div class='project' id='imager'>
-                        <h3><a href='https://git.generalassemb.ly/dma151/W02D04-HW/tree/master/random-imager'>Random Imager</a></h3>
+                        <h3><a href='https://git.generalassemb.ly/dma151/W02D04-HW/tree/master/random-imager' target='_blank'>Random Imager</a></h3>
                     </div>
                     <div class='project' id='tamagotchi'>
-                        <h3><a href='https://git.generalassemb.ly/dma151/Tamagotchi/tree/master/tamagotchi'>Tamagotchi</a></h3>
+                        <h3><a href='https://git.generalassemb.ly/dma151/Tamagotchi/tree/master/tamagotchi' target='_blank'>Tamagotchi</a></h3>
                     </div>
                     <div class='project' id='todoList'>
-                        <h3><a href='https://git.generalassemb.ly/dma151/jquery-todo-list/tree/master/to-do-list/starter_code'>To-do List</a></h3>
+                        <h3><a href='https://git.generalassemb.ly/dma151/jquery-todo-list/tree/master/to-do-list/starter_code' target='_blank'>To-do List</a></h3>
                     </div>
                 </div>
             </div>
             <div class='contacts'>
                 <ul id='contactList'>
-                    <li id='linkedIn'><a href='https://www.linkedin.com/in/dma151/'><img src='https://www.freeiconspng.com/uploads/linkedin-logo-3.png' width='50px'> LinkedIn</a></li>
-                    <li id='instagram'><a href='https://www.instagram.com/daniel.an.15/'><img src='http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png' width='50px'>Instagram</a></li>
-                    <li id='eMail'><a href='mailto:mkandaniel@gmail.com'><img src='https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png' width='50px'> Email</a></li>
+                    <li id='linkedIn'><a href='https://www.linkedin.com/in/dma151/' target='_blank'><img src='https://www.freeiconspng.com/uploads/linkedin-logo-3.png' width='50px'> LinkedIn</a></li>
+                    <li id='instagram'><a href='https://www.instagram.com/daniel.an.15/' target='_blank'><img src='http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png' width='50px'>Instagram</a></li>
+                    <li id='eMail'><a href='mailto:mkandaniel@gmail.com' target='_blank'><img src='https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png' width='50px'> Email</a></li>
                 </ul>
             </div>
         </div>
+        <script src="script.js" type="text/javascript"></script>
+        </script>	
     </body>
 </html>

@@ -40,6 +40,7 @@ p {
 .aboutContainer p {
     color: white;
     font-size: 15px;
+    padding-left: 50px;
 }
 .project {
     width: 100%;
@@ -113,4 +114,29 @@ p {
 }
 .hidden {
     display:none;
+}
+.hamburger {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hamburger ul {
+    position: absolute;
+    list-style-type: none;
+    right: 0px;
+    background-color: rgb(207, 207, 207);;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+}
+.hamburger li {
+    font-size: 40px;
+    border: 2px solid black;
+    line-height: 1.5;
+    padding: 10px 40px;
+    text-align: right;
+}
+.hamburger a {
+    text-decoration: none;
+    color: black;
 }

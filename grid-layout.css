@@ -14,10 +14,6 @@
     align-items: center;
 }
 
-.navbar ul {
-    display: none;
-}
-
 .middle {
     grid-row: 2/3;
     display: grid;
