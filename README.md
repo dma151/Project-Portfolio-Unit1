@@ -54,13 +54,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | HTML Layout | H | 0.5 | 0.5hr |
-| Grid Layout (Hamburger) | H | 0.5 | hr |
-| Animation Inclusion | H | 2hr | hr |  
-| Creating Classes | H | 1hr|  hr | 
-| CSS styling for page (basic) | H | 1.5hr | hr|
+| Grid Layout (Hamburger) | H | 0.5 | 1.5hr |
+| Animation Inclusion | H | 2hr | 3hr |  
+| Creating Classes | H | 1hr|  1.5hr | 
+| CSS styling for page (basic) | H | 1.5hr | 2hr|
 | Filling in HTML layout | H | .75hr |  1hr | 
-| Responsive | H | 2hr | hr |
-| Total | H | 8.25hrs| hrs |
+| Responsive | H | 2hr | 4hr |
+| Total | H | 8.25hrs| 13hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
