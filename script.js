@@ -1,6 +1,8 @@
-$('.hamburger').on('click', function (event) {
-    $('.navbar ul').toggleClass('hidden')
-})
+if (window.innerWidth < 1024) {
+    $('.hamburger').on('click', function (event) {
+        $('.navbar ul').toggleClass('hidden')
+    })
+}
 $('.aboutContainer').on('click', function(event) {
     $('.aboutContainer p').toggleClass('hidden');
 })

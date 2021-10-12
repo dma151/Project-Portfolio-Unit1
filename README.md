@@ -159,5 +159,4 @@ https://stackoverflow.com/questions/7873502/jquery-bounce-variation-bounce-aroun
 
 
 ## Issues and Resolutions
- 
- test to see the repo still pushes renamed
+
