@@ -4,7 +4,8 @@
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
 }
 
 .navbar {
@@ -29,7 +30,7 @@
 .middle .projectContainer {
     grid-row: 3/4;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto 1fr 1fr 1fr 1fr;
 }
 

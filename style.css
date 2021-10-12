@@ -118,7 +118,6 @@ p {
 .hamburger {
     position: relative;
     display: flex;
-    flex-direction: row-reverse;
 }
 .hamburger ul {
     position: absolute;
@@ -126,7 +125,7 @@ p {
     right: 0px;
     background-color: rgb(207, 207, 207);;
     padding: 0;
-    margin: 0;
+    margin: 64px 0 0 0;
     width: 300px;
 }
 .hamburger li {
