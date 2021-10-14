@@ -15,6 +15,30 @@ body {
     padding: 10px;
     margin: 5px 0;
 }
+.hamburger {
+    position: relative;
+    display: flex;
+}
+.hamburger ul {
+    position: absolute;
+    list-style-type: none;
+    right: 0px;
+    background-color: rgb(207, 207, 207);;
+    padding: 0;
+    margin: 64px 0 0 0;
+    width: 300px;
+}
+.hamburger li {
+    font-size: 40px;
+    border: 2px solid black;
+    line-height: 1.5;
+    padding: 10px 40px;
+    text-align: right;
+}
+.hamburger a {
+    text-decoration: none;
+    color: black;
+}
 .welcomeContainer {
     background-image: url('https://images.unsplash.com/photo-1632808575219-68d77ee2dadf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2232&q=80');
     background-position-x: -100px;
@@ -130,28 +154,4 @@ p {
 }
 .hidden {
     display:none;
-}
-.hamburger {
-    position: relative;
-    display: flex;
-}
-.hamburger ul {
-    position: absolute;
-    list-style-type: none;
-    right: 0px;
-    background-color: rgb(207, 207, 207);;
-    padding: 0;
-    margin: 64px 0 0 0;
-    width: 300px;
-}
-.hamburger li {
-    font-size: 40px;
-    border: 2px solid black;
-    line-height: 1.5;
-    padding: 10px 40px;
-    text-align: right;
-}
-.hamburger a {
-    text-decoration: none;
-    color: black;
 }

@@ -1,3 +1,9 @@
+@media screen and (min-width: 768px) {
+    .navbar {
+        font-size: 1em;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .hidden {
         display: contents;
@@ -7,6 +13,16 @@
     }
     .navbar {
         font-size: 1em;
+    }
+    .hamburger {
+        position: static;
+        display: '';
+    }
+    .hamburger ul {
+        position: static;
+        display: flex;
+        margin: 0;
+        width: auto;
     }
     .hamburger li {
         font-size: 1em;
