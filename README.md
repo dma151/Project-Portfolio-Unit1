@@ -47,6 +47,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Cool jQuery animation layout (thinking a flowchart)
 - Add Logos/images
 - Cool navigation bar CSS styling
+- Add Skills Tab
+- Add Collaboration Form
 
 ## Functional Components
 
@@ -65,10 +67,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Cool jQuery Animated Layout | L | 2hr | -hr | hr |
+| Cool jQuery Animated Layout | L | 2hr | hr |
 | Added Logos & Images | L | 1hr | hr |
 | Interactive Navigation Bar | M | 2hr | hr |
-| Total | H | 5hrs| hrs |
+| Add Skills Section| M | 2hr | hr |
+| Add Collaboration Form | L | 1.5hr | hr |
+| Total | H | 8.5hrs| hrs |
 
 ## Additional Libraries
 Instagram Logo
