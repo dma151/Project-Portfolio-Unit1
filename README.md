@@ -72,10 +72,15 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Additional Libraries
 Instagram Logo
+
 http://www.stickpng.com/img/icons-logos-emojis/tech-companies/instagram-logo
+
 Linkedin Logo
+
 https://www.freeiconspng.com/img/2026
+
 Email Logo
+
 https://www.freepnglogos.com/images/email-13728.html
 Tamagotchi logo
 https://www.bandai.com/brands/tamagotchi/

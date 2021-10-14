@@ -75,6 +75,6 @@ $.fn.bounce = function(options) {
 
 $(function() {
     $('.text').bounce({
-        'speed': 7
+        'speed': 4
     });
 });
