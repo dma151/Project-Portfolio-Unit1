@@ -124,7 +124,7 @@ p {
 #simplysend {
     grid-column: 1/5;
     grid-row: 4/5;
-    background-image: url('https://www.bandai.com/wp-content/uploads/tama-on-logo.jpg');
+    background-image: url('images/simplysend.png');
     background-size: cover;
     background-position-y: -200px;
 }
