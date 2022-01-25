@@ -46,25 +46,21 @@
         background-color: rgb(0, 0, 0, 0.8);
         font-size: 1em;
     }
-    .projectContainer #subway {
+    .projectContainer #valorant {
         grid-column: 2/7;
         grid-row: 2/4;
     }
-    .projectContainer #imager {
+    .projectContainer #dogwalker {
         grid-column: 7/12;
         grid-row: 2/4;
     }
-    .projectContainer #tamagotchi {
+    .projectContainer #simplysend {
         grid-column: 2/7;
         grid-row: 4/6;
     }
-    #tamagotchi {
+    #simplysend {
         background-size: cover;
         background-position-y: -75px;
-    }
-    .projectContainer #todoList {
-        grid-column: 7/12;
-        grid-row: 4/6;
     }
     .contacts {
         justify-content: center;

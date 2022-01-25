@@ -109,29 +109,24 @@ p {
     grid-row: 1/2;
     background-color: black;
 }
-#subway {
+#valorant {
     grid-column: 1/5;
     grid-row: 2/3;
-    background-image: url('images/subwayChallenge.png');
+    background-image: url('images/valorant.png');
     background-size: cover;
 }
-#imager {
+#dogwalker {
     grid-column: 1/5;
     grid-row: 3/4;
-    background-image: url('images/randomImager.png');
+    background-image: url('images/dogwalker.png');
     background-size: cover;
 }
-#tamagotchi {
+#simplysend {
     grid-column: 1/5;
     grid-row: 4/5;
     background-image: url('https://www.bandai.com/wp-content/uploads/tama-on-logo.jpg');
     background-size: cover;
     background-position-y: -200px;
-}
-#todoList {
-    grid-column: 1/5;
-    grid-row: 5/6;
-    background-image: url('images/todoList.png');
 }
 .contacts {
     display: flex;
